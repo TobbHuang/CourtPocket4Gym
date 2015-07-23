@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.pazdarke.courtpocket4gym.activity.LoginActivity" >
+
+    <ImageView 
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/icon" />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:text="场兜——商家管理端" />
+    
+    <EditText 
+        android:id="@+id/et_login_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:hint="手机号"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:numeric="integer"
+        android:digits="0123456789"
+        android:maxLength="11" />
+    
+    <EditText 
+        android:id="@+id/et_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="密码"
+        android:textSize="16sp"
+        android:password="true"
+        android:singleLine="true" />
+    
+    <Button 
+        android:id="@+id/btn_login_login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector_drawable_login_loginbutton"
+        android:text="登录"
+        android:textColor="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_pop"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_pop_checkcode"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center"
+        android:text="  验证码"
+        android:textSize="18sp"
+        android:background="@drawable/selector_drawable_white_lightgrey" />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey" />
+    
+    <TextView
+        android:id="@+id/tv_pop_notice"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center"
+        android:text="  发布通知"
+        android:textSize="18sp"
+        android:background="@drawable/selector_drawable_white_lightgrey" />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey" />
+    
+    <TextView
+        android:id="@+id/tv_pop_bill"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center"
+        android:text="  订单信息"
+        android:textSize="18sp"
+        android:background="@drawable/selector_drawable_white_lightgrey" />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey" />
+    
+    <TextView
+        android:id="@+id/tv_pop_quitlogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:text="  退出登录"
+        android:textSize="18sp"
+        android:background="@drawable/selector_drawable_white_lightgrey" />
+
+</LinearLayout>
